@@ -44,10 +44,16 @@ hr {
 
 p {
   color: #40514E;
+  line-height: 2;
 }
 
 .pro {
   text-decoration: underline;
+}
+
+.intro{
+  width: 50%;
+  margin: auto;
 }
 
 .top-container {
@@ -103,6 +109,12 @@ p {
 
 a {
   color: #11999E;
+  font-family: "Merriweather", serif;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6; 
 }
 
 .weight {
@@ -152,7 +164,7 @@ a {
   border: 2px solid #84bbf3;
   display: inline-block;
   color: #ffffff;
-  font-family: Arial;
+  font-family: "Merriweather", serif;
   font-size: 16px;
   font-weight: bold;
   font-style: normal;
